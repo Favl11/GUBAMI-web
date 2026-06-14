@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+/* * {
+  outline: 1px solid red;
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +35,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #d7dce5;
-  padding: 0 100px;
+  padding: 0 150px;
 }
 
 .logo {
@@ -179,7 +183,7 @@ nav a.active::after {
 }
 
 .diteils span:nth-child(1) {
-  left: 100px; /* это и есть ваш отступ слева */
+  left: 150px; /* это и есть ваш отступ слева */
 }
 
 .diteils span:nth-child(2) {
@@ -189,7 +193,7 @@ nav a.active::after {
 }
 
 .diteils span:nth-child(3) {
-  right: 100px; /* это и есть ваш отступ справа */
+  right: 150px; /* это и есть ваш отступ справа */
   white-space: nowrap;
 }
 
@@ -197,9 +201,10 @@ nav a.active::after {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 800px 1fr 500px; /* разная ширина */
+  grid-template-columns: 750px 1fr 500px; /* разная ширина */
+  height: 820px;
   gap: 15px;
-  margin: 11px 100px;
+  margin: 11px 150px;
   font-family: "Helvetica", sans-serif;
   font-size: 16px;
 }
@@ -207,7 +212,6 @@ nav a.active::after {
 .col1 {
   background: #ffffff;
   outline: 1px solid #d7dce5;
-  height: 850px;
   padding: 8px;
 }
 
@@ -222,7 +226,7 @@ nav a.active::after {
 .text_card {
   margin-left: 18px;
   max-width: 600px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #111111;
   text-align: left;
@@ -243,7 +247,6 @@ nav a.active::after {
 .col2 {
   background-image: url(images/fon2.png);
   outline: 1px solid #d7dce5;
-  height: 850px;
   font-family: "MyFont", sans-serif;
 }
 
@@ -272,7 +275,6 @@ nav a.active::after {
 .col3 {
   background: #ffffff;
   outline: 1px solid #d7dce5;
-  height: 850px;
   padding: 8px;
 }
 
@@ -282,6 +284,23 @@ nav a.active::after {
   font-size: 35px;
   font-family: "MyFont", sans-serif;
 }
+
+/* ------------------------------------------ */
+
+.models-container {
+    width: auto;
+    margin: 0;
+    padding: 0 150px;
+}
+
+.block_models{
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  outline: 1px solid #d7dce5;
+}
+
+/* --------------------------------------------- */
 
 footer {
   margin-top: 30px;
