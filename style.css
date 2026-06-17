@@ -68,7 +68,7 @@ nav a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2px;
   width: 100%;
   height: 1px;
   background-color: #111111;
@@ -109,8 +109,9 @@ nav a.active::after {
 
   font-family: "MyFont", sans-serif;
   font-size: 45px;
-  color: #f3f7ff;
+  color: #4da3ff;
   line-height: 1;
+  opacity: 10%;
 }
 
 /* левая колонка */
@@ -183,7 +184,7 @@ nav a.active::after {
 }
 
 .diteils span:nth-child(1) {
-  left: 150px; /* это и есть ваш отступ слева */
+  left: 150px; /*отступ слева */
 }
 
 .diteils span:nth-child(2) {
@@ -193,7 +194,7 @@ nav a.active::after {
 }
 
 .diteils span:nth-child(3) {
-  right: 150px; /* это и есть ваш отступ справа */
+  right: 150px; /*отступ справа */
   white-space: nowrap;
 }
 
@@ -231,7 +232,6 @@ nav a.active::after {
   color: #111111;
   text-align: left;
 
-  /* Основные свойства для такого форматирования */
   word-wrap: break-word;
   white-space: normal;
 }
@@ -242,6 +242,30 @@ nav a.active::after {
 
 .description2 {
   padding-top: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.profile span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.arrow img {
+  width: 18px;
+  height: auto;
+  display: block;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: #d7dce5;
 }
 
 .col2 {
@@ -279,6 +303,38 @@ nav a.active::after {
 }
 
 .news {
+  padding-bottom: 20px;
+}
+
+.block1 {
+  width: 400px;
+  height: 100px;
+  border-top: 1px solid #d7dce5;
+  border-bottom: 1px solid #d7dce5;
+}
+
+.block2 {
+  width: 400px;
+  height: 100px;
+  border-top: 1px solid #d7dce5;
+  border-bottom: 1px solid #d7dce5;
+}
+
+.block3 {
+  width: 400px;
+  height: 100px;
+  border-top: 1px solid #d7dce5;
+  border-bottom: 1px solid #d7dce5;
+}
+
+.block4 {
+  width: 400px;
+  height: 100px;
+  border-top: 1px solid #d7dce5;
+  border-bottom: 1px solid #d7dce5;
+}
+
+.news {
   margin-top: 35px;
   margin-left: 30px;
   font-size: 35px;
@@ -288,12 +344,12 @@ nav a.active::after {
 /* ------------------------------------------ */
 
 .models-container {
-    width: auto;
-    margin: 0;
-    padding: 0 150px;
+  width: auto;
+  margin: 0;
+  padding: 0 150px;
 }
 
-.block_models{
+.block_models {
   width: 100%;
   height: 500px;
   background-color: #ffffff;
